@@ -1,4 +1,4 @@
-#rod_cutting_dp
+#rod_cutting_dp #python3 #optimum_approach
 import sys
 
 def rod_cut(li,n):
