@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<bits/stdc++.h> //mycodeschool
 using namespace std;
 
 void display(int arr[], int len){
@@ -37,11 +37,12 @@ void quicksort(int arr[], int start, int end){
 	}
 }
 int main(){
-	int arr[]={3,6,9,2,5};
+	int arr[]={3,6,9,2,5,4,3,3};
+	int len= sizeof(arr)/sizeof(arr[0]);
 	cout<<"before quicksort: ";
-	display(arr,5);
-	quicksort(arr,0,4);
+	display(arr,len);
+	quicksort(arr,0,len-1);
 	cout<<"after quicksort:  ";
-	display(arr,5);
+	display(arr,len);
 	return 0;
 }
