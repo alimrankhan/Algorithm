@@ -30,11 +30,11 @@ int partition(int arr[], int start, int end){
 
 void quicksort(int arr[], int start, int end){
 	int pindex;
-	if(start<end){
-		pindex= partition(arr, start, end);
-		quicksort(arr, start, pindex-1);
-		quicksort(arr, pindex+1, end);
-	}
+	if(start >= end) return;
+	pindex= partition(arr, start, end);
+	quicksort(arr, start, pindex-1);
+	quicksort(arr, pindex+1, end);
+	
 }
 int main(){
 	int arr[]={3,6,9,2,5,4,3,3};
