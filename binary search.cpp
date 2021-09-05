@@ -15,6 +15,7 @@ void bs(int arr[], int lo, int hi, int x){
 int main(){
 	int arr[]={1,2,3,4,5,6,7};
 	int len= sizeof(arr)/sizeof(arr[0]);
+        sort(arr, arr+len) //edited in github.com
 	int x;
 	for(x=1;x<=7;x++)
 	bs(arr, 0, len-1, x);
