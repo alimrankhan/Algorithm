@@ -9,6 +9,8 @@ def derangement_num(n:int):
 
     return (n-1)*derangement_num(n-2) + (n-1)*derangement_num(n-1)
 
+print(derangement_num(2))
+
 print(derangement_num(3))
 
 print(derangement_num(4))
