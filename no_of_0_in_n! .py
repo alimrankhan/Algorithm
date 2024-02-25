@@ -1,4 +1,5 @@
-#no 0 in fac
+#no. of 0 in n!
+import math
 
 n= int(input())
 ans= int(0)
