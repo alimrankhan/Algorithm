@@ -1,12 +1,11 @@
-#no. of 0 in n!
-import math
+print('for testing purpose only')
+#no 0 in fac
 
-def func(n):
-	i= 1
-	ans= 0
-	while(n/5**i >=1):
-		ans+= (n/5**i) #main formula= n/a**i[a is the number, whice is 5 in this case]
-		i+=1
-	return int(ans)
 n= int(input())
-print(func(n))
+ans= int(0)
+a=5
+while(a<= n):
+    ans= ans+(n/a)
+    a= a*a
+
+print(int(ans))
