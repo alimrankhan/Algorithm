@@ -7,7 +7,7 @@ def permutation(n:int, r:int):
 
     return ans
 
-def factorial(n:int):
+def factorial(n= int()):
     ans= 1
     for i in range(2,n+1):
         ans*= i
