@@ -1,4 +1,4 @@
-def permutation(n:int, r:int):
+def no_of_permutation(n:int, r:int):
     ans= 1
 
     for i in range(r):
@@ -6,7 +6,7 @@ def permutation(n:int, r:int):
 
     return ans
 
-print(f"The total number of elements is: {permutation(3,2)}")
+print(f"The total number of elements is: {no_of_permutation(3,2)}")
 
 #generating actual permutation
 print('permutations using backtracking: ')

@@ -13,6 +13,6 @@ for i in range(1,l+1):
         print(li[j:j+i],end='') 
     print()
 # 3 ways to print anything
-print("total number of elements in subarray %x"%ans) #the number of the the subarray
+# print("total number of elements in subarray %x"%ans) #the number of the the subarray
 print(f"total number of elements in subarray {ans}") # f_string
-print("total number of elements in subarray {}".format(ans)) #the number of the the subarray
+# print("total number of elements in subarray {}".format(ans)) #the number of the the subarrayc
