@@ -1,1 +1,3 @@
-subset generator using recursion 
+#subset generator using recursion 
+
+def ss_generator(k:int):
